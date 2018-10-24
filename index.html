@@ -12,6 +12,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 	<link href="css/styles.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
 
 </head>
 
@@ -19,7 +20,7 @@
 
 
 	<!-- Nav -->
-	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+	<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
 		<div class="container-fluid">
 			<a class="navbar-brand" href="index.html"><img src="assets/monkees-logo.png"></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
@@ -28,16 +29,19 @@
 			<div class="collapse navbar-collapse" id="#navbarResponsive">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item active">
-						<a class="nav-link" href="index.html">Home</a>
+						<a class="nav-link" href="#section-jumbotron">Home</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="index.html">About</a>
+						<a class="nav-link" href="#section-music">Music</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="index.html">Music</a>
+						<a class="nav-link" href="#section-band">Band</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="index.html">Contact</a>
+						<a class="nav-link" href="#section-video">Video</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#section-footer">Contact</a>
 					</li>
 				</ul>
 			</div>
@@ -46,31 +50,34 @@
 
 
 	<!--- Jumbotron -->
-	<div class="container-fluid callout-container">
-		<div class="opaque-overlay">&nbsp;</div>
-		<div class="row">
-			<div class="col">
-				<section class="callout jumbotron text-center">
-					<h1>The Monkees</h1>
-					<p class="lead">Performing live since the 1960s!</p>
-					<button class="btn btn-dark" data-toggle='modal' data-target='#signUpModal'>Listen Here</button>
-
-				</section>
+	<section id="section-jumbotron">
+		<div class="container-fluid callout-container">
+			<div class="opaque-overlay">&nbsp;</div>
+			<div class="row">
+				<div class="col">
+					<section class="callout jumbotron text-center">
+						<h1>The Monkees</h1>
+						<p class="sub">Performing live since the 1960s!</p>
+						<button type="button" class="btn btn-dark"><a href="#section-band">Meet the band!</a></button>
+					</section>
+				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 
 
 	<!--- The Band Welcome -->
-	<div class="container-fluid padding">
-		<div class="row welcome text-center">
-			<div class="col-12">
-				<h2 class="display-4">The Band</h2>
+	<section id="section-band">
+		<div class="container-fluid padding">
+			<div class="row welcome text-center">
+				<div class="col-12">
+					<h2 class="display-4">The Band</h2>
+				</div>
+				<hr>
 			</div>
-			<hr>
 		</div>
-	</div>
-	<hr class="my-4">
+		<hr class="my-4">
+	</section>
 
 
 	<!--- Band Members -->
@@ -122,43 +129,76 @@
 
 
 	<!--- Video - Credit: System 22 I.T. Solutions -->
-	<div id="block2" style="width: 100%; height: 1000px;" data-vide-bg="mp4: assets/TheMonkees, webm: assets/TheMonkees, ogv: assets/TheMonkees, poster: assets/cover3 data-vide-options=" position: 0% 50%>
-	</div>
+	<section id="section-video">
+		<div id="block2" style="width: 100%; height: 1000px;" data-vide-bg="mp4: assets/TheMonkees, webm: assets/TheMonkees, ogv: assets/TheMonkees, poster: assets/cover3 data-vide-options=" position: 0% 50%>
+		</div>
+	</section>
 
 	<!--- Socials -->
-	<div class="container-fluid padding">
-		<div class="row text-center padding">
-			<div class="col-12">
-				<h2>Connect With Us!</h2>
-			</div>
-			<div class="col-12 social-padding">
-				<a href="#"><i class="fab fa-facebook"></i></a>
-				<a href="#"><i class="fab fa-twitter"></i></a>
-				<a href="#"><i class="fab fa-instagram"></i></a>
-				<a href="#"><i class="fab fa-youtube"></i></a>
+	<section id="section-connect">
+		<div class="container-fluid padding">
+			<div class="row text-center padding">
+				<div class="col-12">
+					<h2>Connect With Us!</h2>
+				</div>
+				<div class="col-12 social-padding">
+					<a href="#"><i class="fab fa-facebook"></i></a>
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+					<a href="#"><i class="fab fa-youtube"></i></a>
+				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 
 	<!--- Footer -->
-	<div class="container-fluid padding">
-		<div class="row text-center padding">
-			<div class="col-md-4">
-			<img src="assets/monkees-logo.png">
-			<hr class="light">
-			<p>Number</p>
-			<p>Email</p>
-		
+	<section id="section-footer">
+		<footer>
+			<div class="container-fluid padding">
+				<div class="row text-center padding">
+					<div class="col-md-4">
+						<hr class="light">
+						<h5>Lorem Ipsum</h5>
+						<hr class="light">
+						<p>Lorem Ipsum</p>
+						<p>Lorem Ipsum</p>
+						<p>Lorem Ipsum</p>
+					</div>
+					<div class="col-md-4">
+						<hr class="light">
+						<h5>Lorem Ipsum</h5>
+						<hr class="light">
+						<p>Lorem Ipsum</p>
+						<p>Lorem Ipsum</p>
+						<p>Lorem Ipsum</p>
+					</div>
+					<div class="col-md-4">
+						<hr class="light">
+						<h5>Lorem Ipsum</h5>
+						<hr class="light">
+						<p>Lorem Ipsum</p>
+						<p>Lorem Ipsum</p>
+						<p>Lorem Ipsum</p>
+					</div>
+					<div class="col-12">
+						<hr class="light">
+						<h5>&copy; The Monkees 2018</h5>
+					</div>
+				</div>
 			</div>
-		</div>
-	</div>
+		</footer>
+	</section>
 
+	<script src="js/jquery.vide.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js " integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js " integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<!--- Credit: https://github.com/cferdinandi/smooth-scroll -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/14.2.1/smooth-scroll.min.js" integrity="sha256-MhIEydYjM8X/lfw31uxgXHB5BCo+bQX6BmFJYmzty7w=" crossorigin="anonymous"></script>
+	<script src="path/to/smooth-scroll.polyfills.min.js"></script>
+	<script>
+		var scroll = new SmoothScroll('a[href*="#"]');
+	</script>
 </body>
-
-<script src="js/bootstrap-player.js"></script>
-<script src="js/jquery.vide.js"></script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js " integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js " integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 </html>
