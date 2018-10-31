@@ -17,17 +17,11 @@
 </head>
 
 <body>
-
-
 	<!-- Nav -->
-	<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
-		<div class="container-fluid">
-			<a class="navbar-brand" href="index.html"><img src="assets/monkees-logo.png"></a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-			<div class="collapse navbar-collapse" id="#navbarResponsive">
-				<ul class="navbar-nav ml-auto">
+	<div class="pos-f-t">
+		<div class="collapse" id="navbarToggleExternalContent">
+			<div class="bg-light nav-text p-4">
+				<ul class="navbar-nav ml-auto fixed-top">
 					<li class="nav-item active">
 						<a class="nav-link" href="#section-jumbotron">Home</a>
 					</li>
@@ -46,7 +40,34 @@
 				</ul>
 			</div>
 		</div>
-	</nav>
+		<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html"><img src="assets/monkees-logo.png"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon"></span>
+                </button>
+				<div class="collapse navbar-collapse" id="#navbarResponsive">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="#section-jumbotron">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#section-music">Music</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#section-band">Band</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#section-video">Video</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#section-footer">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
 
 
 	<!--- Jumbotron -->
@@ -81,7 +102,7 @@
 						<img class="card-img-top" src="assets/davyjones.jpg">
 						<div class="card-body">
 							<h4 class="card-title">Davy Jones</h4>
-							<p class="car-text">Guitar & Vocals</p>
+							<p class="card-text">Guitar & Vocals</p>
 							<a href="#" class="btn btn-outline-dark">Bio</a>
 						</div>
 					</div>
@@ -91,7 +112,7 @@
 						<img class="card-img-top" src="assets/petertork.jpg">
 						<div class="card-body">
 							<h4 class="card-title">Peter Tork</h4>
-							<p class="car-text">Bass Guitar & Vocals</p>
+							<p class="card-text">Bass Guitar & Vocals</p>
 							<a href="#" class="btn btn-outline-dark">Bio</a>
 						</div>
 					</div>
@@ -101,7 +122,7 @@
 						<img class="card-img-top" src="assets/mikenesmith.jpg">
 						<div class="card-body">
 							<h4 class="card-title">Mike Nesmith</h4>
-							<p class="car-text">Guitar & Vocals</p>
+							<p class="card-text">Guitar & Vocals</p>
 							<a href="#" class="btn btn-outline-dark">Bio</a>
 						</div>
 					</div>
@@ -111,7 +132,7 @@
 						<img class="card-img-top" src="assets/mickydolenz.jpg">
 						<div class="card-body">
 							<h4 class="card-title">Micky Dolenz</h4>
-							<p class="car-text">Drums & Vocals</p>
+							<p class="card-text">Drums & Vocals</p>
 							<a href="#" class="btn btn-outline-dark">Bio</a>
 						</div>
 					</div>
@@ -141,45 +162,29 @@
 					<a href="#"><i class="fab fa-twitter"></i></a>
 					<a href="#"><i class="fab fa-instagram"></i></a>
 					<a href="#"><i class="fab fa-youtube"></i></a>
-					
+
 				</div>
-				
+
 			</div>
-			<hr>
+			<hr class="my-4">
 		</div>
 	</section>
+
 	<!--- Footer -->
 	<section id="section-footer">
 		<footer>
-			<div class="container-fluid padding">
+			<div class="container-fluid footer padding">
 				<div class="row text-center padding">
-					<div class="col-md-4">
+					<div class="col-12">
+						<h2>Contact</h2>
 						<hr class="light">
-						<h5>Lorem Ipsum</h5>
-						<hr class="light">
-						<p>Lorem Ipsum</p>
-						<p>Lorem Ipsum</p>
-						<p>Lorem Ipsum</p>
-					</div>
-					<div class="col-md-4">
-						<hr class="light">
-						<h5>Lorem Ipsum</h5>
-						<hr class="light">
-						<p>Lorem Ipsum</p>
-						<p>Lorem Ipsum</p>
-						<p>Lorem Ipsum</p>
-					</div>
-					<div class="col-md-4">
-						<hr class="light">
-						<h5>Lorem Ipsum</h5>
-						<hr class="light">
-						<p>Lorem Ipsum</p>
-						<p>Lorem Ipsum</p>
-						<p>Lorem Ipsum</p>
+						<p>Call Us</p>
+						<p>Email</p>
+						<p>Live Chat</p>
 					</div>
 					<div class="col-12">
-						<hr class="light">
-						<h5>&copy; The Monkees 2018</h5>
+						<hr class="light-100">
+						<h5 class="copyright">&copy; The Monkees 2018</h5>
 					</div>
 				</div>
 			</div>
