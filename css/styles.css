@@ -100,6 +100,7 @@ body {
 .social a {
     font-size: 3em;
     padding: 3rem;
+
 }
 
 .fa-facebook {
@@ -122,17 +123,84 @@ body {
 .fa-twitter:hover,
 .fa-instagram:hover,
 .fa-youtube:hover {
-    color:#d5d5d5;
+    color: #d5d5d5;
+}
+
+/* Footer */
+
+footer {
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding: -5rem;
+}
+
+.copyright {
+    padding-top: 5rem;
+    margin-bottom: -5rem;
+}
+
+hr.light {
+    border-top: 1px solid #d5d5d5;
+    width: 25%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+.light-100 {
+    border-top: 1px solid #d5d5d5;
+    width: 100%;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+
 }
 
 /*---Media Queries --*/
 
-@media (max-width: 992px) {}
+@media (max-width: 992px) {
 
-@media (max-width: 768px) {}
+    .social a {
+        font-size: 2em;
+        padding: 1rem;
+    }
 
-@media (max-width: 576px) {}
+}
 
+@media (max-width: 768px) {
+
+    .card-title {
+        font-size: 20px;
+    }
+
+    .nav-text a {
+        color: #222;
+        margin-top: 1em;
+        margin-left: 1em;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .jumbotron h1 {
+        font-size: 60px;
+        color: white;
+        font-weight: 700;
+        margin-bottom: 10px;
+
+    }
+
+    .jumbotron .sub {
+        font-size: 20px;
+        color: white;
+        margin: 25px 0;
+        font-weight: 500;
+
+    }
+
+    .card {
+        margin-bottom: 4rem;
+    }
+}
 
 
 /*
