@@ -20,7 +20,28 @@ body {
     font-size: 18px;
 }
 
+.padding {
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
 
+/* Credit: https://codepen.io/dcastanos/pen/FeJiu */
+
+audio:hover,
+audio:focus,
+audio:active {
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+
+audio {
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
 
 /* Jumbotron */
 
@@ -77,13 +98,12 @@ body {
 
 /* The Band */
 
-.padding {
-    padding-bottom: 5rem;
+.padding-band {
     padding-top: 5rem;
 }
 
 .welcome {
-    padding-top: 5rem;
+
     width: 85%;
     margin: 0 auto;
 }
@@ -154,9 +174,47 @@ hr.light {
 
 }
 
+/* Music */
+
+.padding-music {
+    padding-bottom: 10rem;
+    padding-top: 5rem;
+}
+
+.music-heading {
+    margin-top: 5rem;
+}
+
+.audio-padding {
+    padding-top: 5rem;
+}
+
 /*---Media Queries --*/
 
 @media (max-width: 992px) {
+
+    .audio-padding {
+        margin: 5rem;
+
+
+    }
+
+    .audio-text {
+        font-size: 15px;
+
+
+    }
+
+    .audio-inline {
+        display: inline-block;
+
+
+    }
+
+    .audio-center {
+        text-align: center;
+
+    }
 
     .social a {
         font-size: 2em;
