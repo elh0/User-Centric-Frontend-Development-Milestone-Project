@@ -25,6 +25,7 @@ body {
     padding-top: 5rem;
 }
 
+
 /* Credit: https://codepen.io/dcastanos/pen/FeJiu */
 
 audio:hover,
@@ -176,28 +177,29 @@ hr.light {
 
 /* Music */
 
+.music-container {
+    max-width: 100%;
+    background-color: #FAFAFA;
+}
+
 .padding-music {
     padding-bottom: 10rem;
-    padding-top: 5rem;
+    padding-top: 2rem;
 }
 
 .music-heading {
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 
 .audio-padding {
-    padding-top: 5rem;
+    padding-top: 2rem;
 }
 
 /*---Media Queries --*/
 
 @media (max-width: 992px) {
 
-    .audio-padding {
-        margin: 5rem;
-
-
-    }
+    
 
     .audio-text {
         font-size: 15px;
@@ -217,7 +219,7 @@ hr.light {
     }
 
     .social a {
-        font-size: 2em;
+        font-size: 1.5em;
         padding: 1rem;
     }
 
