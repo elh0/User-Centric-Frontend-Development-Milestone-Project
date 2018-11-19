@@ -9,8 +9,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 	<link href="css/styles.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
 
@@ -26,10 +25,10 @@
 						<a class="nav-link" href="#section-jumbotron">Home</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#section-music">Music</a>
+						<a class="nav-link" href="#section-band">Band</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#section-band">Band</a>
+						<a class="nav-link" href="#section-music">Music</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#section-video">Video</a>
@@ -42,7 +41,7 @@
 		</div>
 		<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
 			<div class="container-fluid">
-				<a class="navbar-brand" href="index.html"><img src="assets/monkees-logo.png"></a>
+				<a class="navbar-brand" href="#section-jumbotron"><img src="assets/monkees-logo.png"></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                  <span class="navbar-toggler-icon"></span>
                 </button>
@@ -52,10 +51,10 @@
 							<a class="nav-link" href="#section-jumbotron">Home</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#section-music">Music</a>
+							<a class="nav-link" href="#section-band">Band</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#section-band">Band</a>
+							<a class="nav-link" href="#section-music">Music</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#section-video">Video</a>
@@ -79,7 +78,8 @@
 					<section class="callout jumbotron text-center">
 						<h1>The Monkees</h1>
 						<p class="sub">Performing live since the 1960s!</p>
-						<button type="button" class="btn btn-dark"><a href="#section-band">Meet the band!</a></button>
+						<button type="button" class="btn btn-dark"><a href="#section-band">Meet Us!</a></button>
+						<button type="button" class="btn btn-dark"><a href="#section-footer">Book Us!</a></button>
 					</section>
 				</div>
 			</div>
@@ -103,7 +103,7 @@
 						<div class="card-body">
 							<h4 class="card-title">Davy Jones</h4>
 							<p class="card-text">Guitar & Vocals</p>
-							<a href="#" class="btn btn-outline-dark">Bio</a>
+							<a href="https://en.wikipedia.org/wiki/Davy_Jones_(musician)" target="_blank" class="btn btn-outline-dark">Bio</a>
 						</div>
 					</div>
 				</div>
@@ -113,7 +113,7 @@
 						<div class="card-body">
 							<h4 class="card-title">Peter Tork</h4>
 							<p class="card-text">Bass Guitar & Vocals</p>
-							<a href="#" class="btn btn-outline-dark">Bio</a>
+							<a href="https://en.wikipedia.org/wiki/Peter_Tork" target="_blank" class="btn btn-outline-dark">Bio</a>
 						</div>
 					</div>
 				</div>
@@ -123,7 +123,7 @@
 						<div class="card-body">
 							<h4 class="card-title">Mike Nesmith</h4>
 							<p class="card-text">Guitar & Vocals</p>
-							<a href="#" class="btn btn-outline-dark">Bio</a>
+							<a href="https://en.wikipedia.org/wiki/Michael_Nesmith" target="_blank" class="btn btn-outline-dark">Bio</a>
 						</div>
 					</div>
 				</div>
@@ -133,7 +133,7 @@
 						<div class="card-body">
 							<h4 class="card-title">Micky Dolenz</h4>
 							<p class="card-text">Drums & Vocals</p>
-							<a href="#" class="btn btn-outline-dark">Bio</a>
+							<a href="https://en.wikipedia.org/wiki/Micky_Dolenz" target="_blank" class="btn btn-outline-dark">Bio</a>
 						</div>
 					</div>
 				</div>
@@ -222,9 +222,12 @@
 					<div class="col-12">
 						<h2 class="display-4">Contact</h2>
 						<hr class="light">
+						<i class="fas fa-phone-square"></i>
 						<p>Call Us</p>
-						<p>Email</p>
-						<p>Live Chat</p>
+						<i class="fas fa-envelope-square"></i>
+						<p>Email Us</p>
+						<i class="fas fa-comments"></i>
+						<p>Chat With Us</p>
 					</div>
 					<div class="col-12">
 						<hr class="light-100">
