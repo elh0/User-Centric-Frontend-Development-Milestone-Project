@@ -49,7 +49,7 @@ Built with **HTML5**, **CSS3**, **Bootstrap** & **JS/Jquery** to help with UI.
 
 * Tested on **Chrome**
 
-* Tested on **Iphone**
+* Tested on **iPhone**
 
 * Tested on **Firefox**
 
@@ -100,5 +100,16 @@ Built with **HTML5**, **CSS3**, **Bootstrap** & **JS/Jquery** to help with UI.
 * smooth-scroll.min.js - Smooth scroll for all links to improve UI. - By [Kevin Powell](https://codepen.io/kevinpowell/pen/dWzGox)
 
 * jquery.vide.js - Full viewport video - By [Vodka Bears](https://github.com/vodkabears/Vide)
+
+### Media
+
+[Video Source](https://www.youtube.com/watch?v=xvqeSJlgaNk)
+[Davy Jones Img](http://www.gstatic.com/tv/thumb/persons/863/863_v9_ba.jpg)
+[Peter Tork Img](http://www.gstatic.com/tv/thumb/persons/1784/1784_v9_ba.jpg)
+[Mike Nesmith Img](http://images5.fanpop.com/image/photos/30800000/Monkees-the-monkees-30872713-804-1024.jpg)
+[Micky Dolenz Img](http://www.monkeeslivealmanac.com/uploads/7/8/9/5/7895731/5389806_orig.jpg)
+[Hero Img](https://www.monkeeslivealmanac.com/uploads/7/8/9/5/7895731/6073041_orig.jpg)
+[Logo Img](https://static1.squarespace.com/static/583863c1e6f2e1216884123c/58386b3b4402431df91128b8/5a2586f1c830250fac0cf3b7/1513805375883/14713926381211565150the-monkees-logo.jpg?format=1500w)
+
 
 
