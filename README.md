@@ -15,21 +15,21 @@ A prominent article I read called "Your body text is too small" has been at the 
 
 ## Features 
 
-* Navbar Logo & Home Link: These both act as a **'Back To Top'** button for user reference. 
+* **Navbar Logo & Home Link** -These both act as a **'Back To Top'** button for user reference. 
 
-* Navbar Menu: Bootstrap hamburger menu used for smaller devices to help users navigate on mobile/tablet.
+* **Navbar Menu** - Bootstrap hamburger menu used for smaller devices to help users navigate on mobile/tablet.
 
-* Landing: Large hero/showcase image to introduce the band. The use of buttons using text such as **'Meet Us!'** & **'Book Us!'** not only provide immediate calls to action to help the user fulfill their needs but also notifies the user that this an official website as the buttons use a 1st person narrative which intend initiate a personal feeling.
+* **Landing Section** - Large hero/showcase image to introduce the band. The use of buttons using text such as **'Meet Us!'** & **'Book Us!'** not only provide immediate calls to action to help the user fulfill their needs but also notifies the user that this an official website as the buttons use a 1st person narrative which intend initiate a personal feeling.
 
-* Band Section: Images sourced from Google & bio button links to band member's Wiki page.
+* **Band Section** - Images sourced from Google & bio button links to band member's Wiki page.
 
-* Music Section: Audio provided by CI & hover effect implemented via: [Kevin Powell](https://codepen.io/kevinpowell/pen/dWzGox).
+* **Music Section** - Audio provided by CI & hover effect implemented via: [Kevin Powell](https://codepen.io/kevinpowell/pen/dWzGox).
 
-* Video Section: Downloaded (YouTube) & hosted locally & Uploaded to c9.
+* **Video Section** - Downloaded (YouTube) & hosted locally & Uploaded to c9.
 
-* Connect Section: Using social icons to apply the briefs request of creating a social media presence. Large & strongly set at the bottom to notify the user the website content is coming to an end & if they want to see more they can browse these links.
+* **Connect Section** - Using social icons to apply the briefs request of creating a social media presence. Large & strongly set at the bottom to notify the user the website content is coming to an end & if they want to see more they can browse these links.
 
-* Contact Section: Brief, simple & straight to the point including various methods of contact.
+* **Contact Section** - Brief, simple & straight to the point including various methods of contact.
 
 ### Features Left to Implement 
 
@@ -59,11 +59,15 @@ Built with **HTML5**, **CSS3**, **Bootstrap** & **JS/Jquery** to help with UI.
 
 ## Credits 
 
-* smooth-scroll.min.js - Smooth scroll for all links to improve UI. - By [Kevin Powell](https://codepen.io/kevinpowell/pen/dWzGox)
+* [Smooth-scroll.min.js](https://codepen.io/kevinpowell/pen/dWzGox) - By Kevin Powell.
 
-* HTML5 Audio Hover CSS Style - [By FeJiu](https://codepen.io/dcastanos/pen/FeJiu)
+* [Audio Hover Rise Effect](https://codepen.io/dcastanos/pen/FeJiu) - By FeJiu.
 
-* Full Screen Video - Instructed by [System 22 I.T Solutions](https://youtu.be/4tYPDXfjP1Y) & Script by [Vodka Bears](https://github.com/vodkabears/Vide)
+* [Full Width Video](https://github.com/vodkabears/Vide) - By Vodkabears.
+
+* [Full Width Video Instruction Part 1](https://youtu.be/4tYPDXfjP1Y) - By System 22 I.T Solutions.
+
+* [Full Width Video Instruction Part 2](https://youtu.be/Y1eCNrUDrQg) - By Webseotips.
 
 ### Sites Used
 
@@ -89,17 +93,22 @@ Built with **HTML5**, **CSS3**, **Bootstrap** & **JS/Jquery** to help with UI.
 
 * [JQuery 3.1.1](https://jquery.com/download/)
 
+
 ### Fonts 
 
 [Karla by Google Fonts](https://fonts.google.com/specimen/Karla)
 
 ### Scripts Used
 
-* [Popper.js](https://popper.js.org/)
+* [Smooth-scroll.min.js](https://codepen.io/kevinpowell/pen/dWzGox) - Smooth Scroll For UI.
 
-* smooth-scroll.min.js - Smooth scroll for all links to improve UI. - By [Kevin Powell](https://codepen.io/kevinpowell/pen/dWzGox)
+* [Popper.js](https://getbootstrap.com/) - Full Width Video. 
 
-* jquery.vide.js - Full viewport video - By [Vodka Bears](https://github.com/vodkabears/Vide)
+* [Bootstrap.min.js](https://getbootstrap.com/) - Full Width Video.
+
+* [Slim.min.js](https://getbootstrap.com/) - Full Width Video.
+
+* [Jquery.vide.js](https://github.com/vodkabears/Vide) - Full Width Video.
 
 ### Media
 
@@ -110,6 +119,8 @@ Built with **HTML5**, **CSS3**, **Bootstrap** & **JS/Jquery** to help with UI.
 [Micky Dolenz Img](http://www.monkeeslivealmanac.com/uploads/7/8/9/5/7895731/5389806_orig.jpg)
 [Hero Img](https://www.monkeeslivealmanac.com/uploads/7/8/9/5/7895731/6073041_orig.jpg)
 [Logo Img](https://static1.squarespace.com/static/583863c1e6f2e1216884123c/58386b3b4402431df91128b8/5a2586f1c830250fac0cf3b7/1513805375883/14713926381211565150the-monkees-logo.jpg?format=1500w)
+
+**Thanks for reading!**
 
 
 
