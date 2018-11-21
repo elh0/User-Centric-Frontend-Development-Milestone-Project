@@ -1,4 +1,4 @@
-# User Centric Frontend Development Milestone Project - The Monkees Website
+# User Centric Frontend Development Milestone Project
 
 This site was developed from the brief enlisted by Code Institute. The intended goal of this site was to help The 1960's rock band **The Monkees** showcase their music & publicise their availability to perform at events.
 
@@ -23,7 +23,7 @@ A prominent article I read called "Your body text is too small" has been at the 
 
 * Band Section: Images sourced from Google & bio button links to band member's Wiki page.
 
-* Music Section: Audio provided by CI & hover effect implemented via: [Kevin Powell](https://codepen.io/kevinpowell/pen/dWzGox)
+* Music Section: Audio provided by CI & hover effect implemented via: [Kevin Powell](https://codepen.io/kevinpowell/pen/dWzGox).
 
 * Video Section: Downloaded (YouTube) & hosted locally & Uploaded to c9.
 
@@ -61,7 +61,7 @@ Built with **HTML5**, **CSS3**, **Bootstrap** & **JS/Jquery** to help with UI.
 
 * smooth-scroll.min.js - Smooth scroll for all links to improve UI. - By [Kevin Powell](https://codepen.io/kevinpowell/pen/dWzGox)
 
-* HTML5 Audio CSS Style - (https://codepen.io/dcastanos/pen/FeJiu)
+* HTML5 Audio Hover CSS Style - [By FeJiu](https://codepen.io/dcastanos/pen/FeJiu)
 
 * Full Screen Video - Instructed by [System 22 I.T Solutions](https://youtu.be/4tYPDXfjP1Y) & Script by [Vodka Bears](https://github.com/vodkabears/Vide)
 
