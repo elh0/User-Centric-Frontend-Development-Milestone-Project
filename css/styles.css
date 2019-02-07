@@ -147,6 +147,22 @@ audio {
     color: #d5d5d5;
 }
 
+/*--- Form --*/
+
+.form-control {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.title-mailing-list {
+    font-size: 28px;
+}
+
 /* Footer */
 
 footer {
@@ -242,11 +258,21 @@ footer {
         padding: 30px;
     }
 
+    .form-control {
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
 }
 
 @media (max-width: 576px) {
 
-    .jumbotron  {
+    .jumbotron {
         font-size: 60px;
         color: white;
         font-weight: 700;
@@ -264,12 +290,22 @@ footer {
 
     .card {
         margin-bottom: 64px;
-       
+
     }
 
-     .social a {
+    .social a {
         font-size: 30px;
         padding: 10px;
+    }
+    
+    .form-control {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 10px;
     }
 
 }
