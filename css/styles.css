@@ -219,8 +219,8 @@ footer {
     }
 
     .social a {
-        font-size: 24px;
-        padding: 16px;
+        font-size: 44px;
+        padding: 48px;
     }
 
 }
@@ -235,6 +235,11 @@ footer {
         color: #222;
         margin-top: 12px;
         margin-left: 12px;
+    }
+
+    .social a {
+        font-size: 44px;
+        padding: 30px;
     }
 
 }
@@ -259,7 +264,14 @@ footer {
 
     .card {
         margin-bottom: 64px;
+       
     }
+
+     .social a {
+        font-size: 30px;
+        padding: 10px;
+    }
+
 }
 
 
