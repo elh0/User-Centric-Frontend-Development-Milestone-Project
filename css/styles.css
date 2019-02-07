@@ -241,7 +241,7 @@ footer {
 
 @media (max-width: 576px) {
 
-    .jumbotron h1 {
+    .jumbotron  {
         font-size: 60px;
         color: white;
         font-weight: 700;
