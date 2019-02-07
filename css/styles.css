@@ -25,6 +25,11 @@ body {
     padding-top: 80px;
 }
 
+ul.navbar-nav.ml-auto.fixed-top {
+    background-color: white;
+    padding: 20px;
+}
+
 
 /* Credit: https://codepen.io/dcastanos/pen/FeJiu */
 
