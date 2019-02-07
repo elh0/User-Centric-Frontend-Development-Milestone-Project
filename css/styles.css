@@ -168,6 +168,12 @@ audio {
     font-size: 28px;
 }
 
+.col-12-mail {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 50px;
+}
+
 /* Footer */
 
 footer {
@@ -302,7 +308,7 @@ footer {
         font-size: 30px;
         padding: 10px;
     }
-    
+
     .form-control {
         width: 80%;
         display: flex;
