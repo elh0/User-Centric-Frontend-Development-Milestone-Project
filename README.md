@@ -55,7 +55,7 @@ Built with **HTML5**, **CSS3**, **Bootstrap** & **JS/Jquery** to help with UI.
 
 ## Deployment
 
-### [View Site](https://elh0.github.io/the-monkees/)
+### [View Site](https://elh0.github.io/User-Centric-Frontend-Development-Milestone-Project/)
 
 ## Credits 
 
