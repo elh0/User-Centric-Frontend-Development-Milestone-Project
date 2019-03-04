@@ -179,7 +179,7 @@ audio {
 footer {
     background-color: #3f3f3f;
     color: #d5d5d5;
-    padding: -80px;
+    padding: 0;
 }
 
 .copyright {
@@ -221,6 +221,8 @@ footer {
 .audio-padding {
     padding-top: 32px;
 }
+
+
 
 /*---Media Queries --*/
 
