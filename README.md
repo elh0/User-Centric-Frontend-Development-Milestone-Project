@@ -55,11 +55,11 @@ Built with **HTML5**, **CSS3**, **Bootstrap** & **JS/Jquery** to help with UI.
 
 ## Validation
 
-* HTML & CSS Validated with W3C (https://validator.w3.org/)
+* HTML & CSS Validated with [W3C](https://validator.w3.org)
 
 ## Deployment
 
-### [View Site](https://elh0.github.io/User-Centric-Frontend-Development-Milestone-Project/)
+### [View Site](https://elh0.github.io/User-Centric-Frontend-Development-Milestone-Project)
 
 ## Credits 
 
