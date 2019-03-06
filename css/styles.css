@@ -43,6 +43,7 @@ audio:active {
 
 
 audio {
+    width: 100%;
     -webkit-transition: all 0.5s linear;
     -moz-transition: all 0.5s linear;
     -o-transition: all 0.5s linear;
