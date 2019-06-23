@@ -9,7 +9,7 @@ This project will utilise my experience of **HTML5**, **CSS3** & the little know
 
 ## UX
 
-The intended UX is simplistic & clean to help new users navigate fluidly & keeps a common website format. Using whites & greys to organise content these subtle effects help for a minimal approach & intentionally leaver the user feeling comfortable. I have used a dark grey as the call to action colour used within the two landing page buttons & within the footer to help the user understand where the important information they may need is situated.
+The intended UX is simplistic & clean to help new users navigate fluidly & keeps a common website format. Using whites & greys to organise content these subtle effects help for a minimal approach & intentionally leave the user feeling comfortable. I have used a dark grey as the call to action colour used within the two landing page buttons & within the footer to help the user understand where the important information they may need is situated.
 
 A prominent article I read called "Your body text is too small" has been at the forefront of my design process the whole way through. Making sure all h1's are clear & lead whilst minimising information on **h2/h3/h4** text to help user find fluidiity in scrolling.
 
